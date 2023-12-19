@@ -6,6 +6,25 @@
     <title>Contato</title>
 </head>
 <body>
-    <fieldset><legend>Entre em contato</legend></fieldset>
+    <fieldset><legend>Entre em contato</legend>
+    <p><b>Assunto:</b>
+        <select name="Assunto:" id="assunto">
+        <option value="suporte">Suporte</option>
+        <option value="sugestao">Sugestão</option>
+        <option value="reclamacao">Reclamação</option>
+    </select>
+    </p>
+    <p><b>Nome Completo:</b></p>
+      <input type="text">
+      <p><b>E-mail</b></p>
+      <input type="email">
+      <p><b>Mensagem:</b></p>
+      <input type="text">
+    <br>
+        <input type="checkbox" id="novidades-email" name="novidades-email">
+        <label for="novidades-email">Aceito receber novidades por e-mail</label>
+    <br>
+        <button>Enviar</button>
+    </fieldset>
 </body>
 </html>
